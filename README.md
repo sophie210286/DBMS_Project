@@ -23,12 +23,16 @@ When managing a myriad of data related to crime, numerous problems emerge. For i
 
 ### ER diagram
 
-![ER diagram](/Documents/ER.png)
+![ER diagram](/documents/assets/ER.png)
 
 
 
 ### References
-[1]    “Atlanta, GA crime rates”  NeighborhoodScout. n.d. https://www.neighborhoodscout.com/ga/atlanta/crime#description Accessed 15 October 2022 
-[2]    “Atlanta Crime Rate Report (Georgia)”. n.d.          https://www.cityrating.com/crime-statistics/georgia/atlanta.html Accessed 15 October 2022 
-[3]    Atlanta GVA Final Design - NICJR. https://nicjr.org/wp-content/uploads/2022/06/Atlanta-GVA_061022.pdf. 
-[4]    Ford, H. (2022, July 27). Is Atlanta's crime worse than Chicago's? 11Alive. Retrieved October 15, 2022, from https://www.11alive.com/article/news/crime/atlanta-chicago-crime-rates/85-1a13cc4a-bdef-43d6-a213-69ced3835b48
+
+[1] “Atlanta, GA crime rates”  NeighborhoodScout. n.d. https://www.neighborhoodscout.com/ga/atlanta/crime#description Accessed 15 October 2022 
+
+[2] “Atlanta Crime Rate Report (Georgia)”. n.d.          https://www.cityrating.com/crime-statistics/georgia/atlanta.html Accessed 15 October 2022 
+
+[3] Atlanta GVA Final Design - NICJR. https://nicjr.org/wp-content/uploads/2022/06/Atlanta-GVA_061022.pdf. 
+
+[4] Ford, H. (2022, July 27). Is Atlanta's crime worse than Chicago's? 11Alive. Retrieved October 15, 2022, from https://www.11alive.com/article/news/crime/atlanta-chicago-crime-rates/85-1a13cc4a-bdef-43d6-a213-69ced3835b48
