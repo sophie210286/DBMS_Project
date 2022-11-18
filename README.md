@@ -1,38 +1,146 @@
-# CDMS: Crime Data Management System
+# Set Up and Info
 
-![GitHub contributors](https://img.shields.io/github/contributors/sophie210286/DBMS_Project?color=palevioletred) ![GitHub last commit](https://img.shields.io/github/last-commit/sophie210286/DBMS_Project?color=mediumorchid) ![GitHub deployments](https://img.shields.io/github/deployments/sophie210286/DBMS_Project/main?label=deploy&color=mediumseagreen)
+The box below means terminal
 
-## Overview
+```console
+>> I am Terminal
+```
+
+<br/>
+
+## Basic Requirement
+
+Check whether or not your device has git installed:
+
+```console
+git --version
+```
+
+If not, download it:
+
+- Git for [windows](https://git-scm.com/download/win)
+- Git for [mac](https://git-scm.com/download/mac)
+
+If you are windows user, use **git-bash** terminal. In my opinion, git-bash has better interface than cmd. Mac book has good terminal, so need for git-bash.
+
+<br/>
+
+## Project Installation
+
+`Step 0`: Open the folder where you want to store your project in the terminal
+
+`Step 1`: The following command will clone the repository from GitHub
+
+```console
+git clone https://github.com/sophie210286/DBMS_Project.git
+```
+
+<br/>
+
+## Helpful Infos and Commands
+
+`Note`: All the following commands should be executed in the project folder
+
+#### Terminologies
+
+```txt
+Remote repository: The repository that is on GitHub
+Local repository: The repository that is on your device
+```
+
+<br />
+
+#### Branch
+
+- By default, GitHub shows the `main` branch
+- The `*` symbol in the branch list means the current branch
+- To see the list of branches in your local repository:
+
+```console
+git branch
+```
+
+- To see the list of branches in your remote repository:
+
+```console
+git branch -r
+```
+
+- To see the list of all branches in the local + remote repositories:
+
+```console
+git branch -a
+```
+
+- To change the branch:
+
+```console
+git checkout <write-branch-name>
+```
+
+<br/>
+
+#### Pull
+
+**Always run the following command when you start working on the project or change the branch which on remote repository to get new changes**
+
+```
+git pull
+```
+
+- `git pull` command will pull new changes from the remote repository to your local repository
+
+<br/>
+
+#### Adding/Updating the Content
+
+> You added a new file or changed some files, and now, you want to share the changes with others.
+
+`Step 0`  To check, what new files or changed files are not in the remote repository:
+
+```console
+git status
+```
+* The above command will show you the list of files that are changed or newly added
 
 
-### I. Introduction
+`Step 1` Now you will select what files you to add in your remote repository:
+    
+* If you want to add specific file:
+    ```console
+    git add <file-name>
+    ```
 
+* If you want to add all the changed file(I usually use this):
+    ```console
+    git add .
+    ```
 
-### II. Neighbourhood crime
- 
+`Step 2` To commit(save) the changes to the remote repository
+```console
+git commit -m "<write-meaningful-message>"
+```
 
-### III. Victimized groups
+`Step 3` To send all the changes to the remote repository
+```console
+git push
+```
 
+<br/>
 
-### IV. Common types of crimes
+#### Git Ignore
 
+> Let's say there is a file that you don't want to share with anyone on the remote repository, but you still want to keep the file inside this project folder.
 
-### V. Need for DB system
+* Create a `.gitignore` file and put relative file paths that you want to ignore
+```console
+.gitignore
+<file-paths>
 
-When managing a myriad of data related to crime, numerous problems emerge. For instance, various crimes could unfold in real-time or be discovered at multiple zones. Also, there could be certain hotspots where specific crimes are reoccurring, or people of a particular race are getting targeted, which requires urgent investigation. In addition, victims and criminals must be tracked for further investigation and maintaining records. Therefore, the need for a crime data management system arises to address these problems, which can manage data efficiently and concurrently while keeping data integrity. The crime data management system can be used to manage crime, generate reports, and analyze crime trends in the region so that justice is served appropriately.
+# Example
+setup.txt
 
-### ER diagram
-
-![ER diagram](/documents/assets/ER.png)
-
-
-
-### References
-
-[1] “Atlanta, GA crime rates”  NeighborhoodScout. n.d. https://www.neighborhoodscout.com/ga/atlanta/crime#description Accessed 15 October 2022 
-
-[2] “Atlanta Crime Rate Report (Georgia)”. n.d.          https://www.cityrating.com/crime-statistics/georgia/atlanta.html Accessed 15 October 2022 
-
-[3] Atlanta GVA Final Design - NICJR. https://nicjr.org/wp-content/uploads/2022/06/Atlanta-GVA_061022.pdf. 
-
-[4] Ford, H. (2022, July 27). Is Atlanta's crime worse than Chicago's? 11Alive. Retrieved October 15, 2022, from https://www.11alive.com/article/news/crime/atlanta-chicago-crime-rates/85-1a13cc4a-bdef-43d6-a213-69ced3835b48
+# If there is a file which is inside the folder
+/queries/secretfile.txt
+```
+* Here `#` is a comment
