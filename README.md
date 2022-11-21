@@ -4,6 +4,7 @@
 
 ## Overview
 
+Abstract—Atlanta police departments encounter numerous incidents daily. In efforts to record the details of such incidents and the relationships amongst the various parties involved, a coherent relational database management system (RDBMS) is crucial to manage the influx of data. The police department database encompasses information about the various entity sets; the police officer handling each crime and criminal, the detailed information about the criminal, the accurate time and precise location in which the incident occurred, and the specifics of the victim influenced by the crime. The relational database includes a table representing each entity set with their various entities along with the tables illustrating the relationship between them. In this database, the primary and secondary keys are specified to ensure uniqueness of information and to ease creating reports. The database also simplifies storing and updating data for ease of data management. Additionally, RDBMS is essential for creating reports to analyze crime statistics in Atlanta and predict trends to focus safety efforts on areas with high crime numbers. 
 
 ### I. Introduction
 
