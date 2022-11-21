@@ -16,6 +16,10 @@
 
 ### IV. Common types of crimes
 
+Gang crime is one of the main causes of violent crime in Atlanta. Since the 1970s, gang activity has increased dramatically. Gang members are responsible for more than half of Atlanta's violent crimes. It is known that there are more than 192 gangs [4]. Along with drug peddling, carjacking, identity theft, and credit card fraud, they also conduct violent crimes. The 14 cities with the highest rates of child sex trafficking include Atlanta. Children who are being trafficked for sex arrive in large numbers to Atlanta via Mexican border crossings. The sex trafficking network made $290 million in 2007 [4].
+
+Furthermore, in 2022, there were 86 murders, 1,921 serious assaults, 88 rapes, and 379 robberies [4]. Per 100,000, Atlanta has a murder rate of 17 people, a rate of violent assault of 386, a rate of rape of 18, and a rate of robbery of 76 [4]. There have been 1,582 motor vehicle thefts, 7,167 thefts, and 918 burglaries or break-ins in Atlanta [4]. Shoplifting, theft from a moving vehicle, and all other larceny are the major three categories of theft in Atlanta. The burglary rate is 184 per 100,000, while the motor vehicle theft rate is 318, and an overall theft rate of 1,440 [4]. Criminal justice experts may find it useful to use the Crime monitoring data management as a tool to foresee rising crime risk. Law enforcement action can then be taken to stop the anticipated crimes from happening. Additionally, it can aid in concentrating on a particular locations and enable better use of police resources.
+
 
 ### V. Need for DB system
 
