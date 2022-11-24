@@ -8,6 +8,10 @@ Abstract—Atlanta police departments encounter numerous incidents daily. In eff
 
 ### I. Introduction
 
+With a crime rate of 45 per one thousand residents, Atlanta scores one of the highest crime rates in America [1]. One’s chance of becoming a victim of either violent or property crime in 2022 within Georgia is more than 91% of the communities have a lower crime rate than Atlanta [1]. According to statistics, violent crime rate is one of the highest in the nation, across communities of all sizes this including rape, murder, armed robbery, and aggravated assault. According to Neighborhood Scout’s analysis of FBI reported crime data, the chances of one to become a victim of one of these crimes in Atlanta is one in 134 [2]. Additionally, Atlanta has one of the highest rates of motor vehicle theft according to the analysis of FBI crime data. The chance of getting your car stolen if you live in Atlanta is 1 in 154 [2].
+
+
+
 
 ### II. Neighbourhood crime
  
@@ -44,3 +48,4 @@ Based on the crime data, we set police, crime, criminal, victim, and time as ent
 [3] Atlanta GVA Final Design - NICJR. https://nicjr.org/wp-content/uploads/2022/06/Atlanta-GVA_061022.pdf. 
 
 [4] Ford, H. (2022, July 27). Is Atlanta's crime worse than Chicago's? 11Alive. Retrieved October 15, 2022, from https://www.11alive.com/article/news/crime/atlanta-chicago-crime-rates/85-1a13cc4a-bdef-43d6-a213-69ced3835b48
+
