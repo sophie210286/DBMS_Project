@@ -21,7 +21,16 @@ Order By count(c.crimeid) DESC;
 
 
 -- Query 5
-
+SELECT c.firstname, c.lastname, c.gender, c.race, COUNT(c.criminalid)
+FROM criminal c
+WHERE c.prisonid in(
+	SELECT p.prisonid
+	FROM prison p
+	WHERE p.prisonname LIKE 'G%'
+)
+GROUP BY c.firstname, c.lastname, c.gender, c.race
+HAVING c.gender = 'Female'
+ORDER BY c.firstname ASC;
 
 -- Query 6
 
