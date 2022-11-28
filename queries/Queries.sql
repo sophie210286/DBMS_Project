@@ -1,5 +1,11 @@
 -- Query 1
-
+SELECT pr.prisonname, pr.city, COUNT(cv.crimeid) as TotalCrimes
+FROM prison pr, criminal c, criminalvictimcase cv
+WHERE pr.prisonid = c.prisonid
+AND c.criminalid = cv.criminalid
+GROUP BY  pr.prisonname, pr.city
+ORDER BY TotalCrimes DESC
+LIMIT 10; 
 
 -- Query 2
 
