@@ -14,7 +14,9 @@ With a crime rate of 45 per one thousand residents, Atlanta scores one of the hi
 
 
 ### II. Neighbourhood crime
- 
+Home to about 500,000 residents the crime rate in Atlanta Georgia has slowly been on the rise. With six zones, consisting of a total of 242 distinct neighborhoods, keeping the crime rate low in Atlanta is a substantial responsibility placed on law enforcement. In addition, with income disparity and racial segregation playing an extensive role in the amount of police presence or intervention, certain neighborhoods are seeing increasing amounts of criminal activity, while others have been deemed some of the safest neighborhoods to live in Atlanta. Along with this Atlanta has continued to see an increase of people of all socio-economic statuses migrating to the city. However, with this rise of people moving to the city has come an increase in crimes concentrated in particular neighborhoods, or areas around the city known as hot spots, due to various reasons not limited to: the homelessness crisis, inflation, and more. 
+Neighborhoods located in areas within the top percent of income such as Buckhead, Garden Hills, and Colonial Homes see much less criminal activity in comparison to the rest of the city.  On the opposite end, areas such as Oakland City and West End,  which are known for having affordable rent for Atlanta, have seen a staggering higher amount of criminal activity compared to the previously mentioned areas. In addition neighborhoods along Atlanta’s subway line - MARTA has also seen a slow increase in crime for reasons such as easier access to those areas, with some becoming hotspots for all sorts of criminal activity. Using some form of crime tracking data management system would allow police/government officials to see what areas need more or less police intervention, which in turn could aid them in responding to crimes faster, reducing the amount of criminal activity within the city. 
+
 
 ### III. Victimized groups
 
