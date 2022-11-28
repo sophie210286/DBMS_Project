@@ -21,3 +21,8 @@ Order By count(c.crimeid) DESC;
 
 
 -- Query 7
+select crimecase.city, 
+sum(case when criminal.gender = 'Female' then 1 end) as totalfemale,
+sum(case when criminal.gender = 'Male' then 1 end) as totalmale
+FROM crimecase, criminal
+group by crimecase.city;
