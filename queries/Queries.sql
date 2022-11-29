@@ -11,7 +11,7 @@ LIMIT 10;
 SELECT p.firstname, p.LastName, p.rank,COUNT(p.policeID) AS NumOfTimes
 FROM police p, investigate i, criminalvictimcase cv, victim v
 where p.policeid = i.policeid AND i.crimeid = cv.crimeid and cv.victimid = v.victimid 
-and v.gender like '%male%'
+and v.gender = 'Male'
 group by p.firstname, p.lastname, p.rank
 order by count(p.policeid) desc;
 
