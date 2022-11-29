@@ -23,8 +23,18 @@ Where p.policeid = i.policeid AND i.crimeid = c.crimeid
 AND p.rank =  'Senior Police Officer'
 Group by p.policeid, p.lastname
 Order By count(c.crimeid) DESC;
--- Query 4
 
+-- Query 4
+SELECT t.crimename, COUNT(c.criminalid) as TotalCriminal
+FROM prison p, criminal c, criminalvictimcase cv, crimetype ct, type t
+WHERE p.prisonid = c.prisonid
+AND c.criminalid = cv.crimeid
+AND cv.crimeid = ct.crimeid
+AND ct.typeid = t.typeid
+AND p.prisonname = 'Pulaski State Prison'
+GROUP BY t.crimename
+ORDER BY TotalCriminal DESC
+LIMIT 5;
 
 -- Query 5
 SELECT c.firstname, c.lastname, c.gender, c.race, COUNT(c.criminalid)
