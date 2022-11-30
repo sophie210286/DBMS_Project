@@ -1,11 +1,14 @@
 import { FormControl, InputLabel, MenuItem, Select, SelectChangeEvent } from '@mui/material';
 import { Box } from '@mui/system'
 import React from 'react'
+import CustomForm from './Forms/CustomForm';
 
 const CDMSForm = () => {
     const [selectTable, setSelectTable] = React.useState('');
+    const [show, setShow] = React.useState(false)
     const handleChange = async (event: SelectChangeEvent) => {
         setSelectTable(event.target.value as string);
+        setShow(true);
     };
     const selected = React.useRef('');
 
@@ -51,6 +54,8 @@ const CDMSForm = () => {
                     </Select>
                 </FormControl>
             </Box>
+            {show?
+            <CustomForm tbname={selected.current} />:null}
             {/* <StickyHeadTable rows={rows} columns={columns} id={table(selected.current).id} /> */}
         </Box>
     )

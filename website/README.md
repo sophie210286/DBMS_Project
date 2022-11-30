@@ -1,4 +1,4 @@
-# Crime Data Management System (CDMS) - Website
+# CDMS: Crime Data Management System - Website
 
 ## Requirements
 
