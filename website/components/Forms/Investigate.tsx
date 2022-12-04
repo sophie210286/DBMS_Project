@@ -29,7 +29,7 @@ const InvestigateForm = () => {
             policeid: e.currentTarget.policeid.value,
             startdate: e.currentTarget.startdate.value,
             enddate: e.currentTarget.enddate.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

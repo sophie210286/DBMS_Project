@@ -34,7 +34,7 @@ const CrimeTypeForm = () => {
             crimeid: e.currentTarget.crimeid.value,
             ibrcode: e.currentTarget.ibrcode.value,
         
-        }).catch(i => console.log("Error")) 
+        }).catch(i => i.response) 
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

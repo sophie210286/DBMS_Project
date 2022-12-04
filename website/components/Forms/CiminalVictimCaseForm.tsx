@@ -41,7 +41,7 @@ const CriminalVictimCaseForm = () => {
            criminalid: e.currentTarget.criminalid.value, 
            victimid: e.currentTarget.victimid.value, 
            prisonyears: e.currentTarget.prisonyears.value 
-        }).catch(i => console.log("Error")) 
+        }).catch(i => i.response); 
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

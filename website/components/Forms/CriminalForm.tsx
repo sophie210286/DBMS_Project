@@ -45,7 +45,7 @@ const CriminalForm = () => {
             race: e.currentTarget.race.value, 
             prisonid: e.currentTarget.prisonid.value 
         
-        }).catch(i => console.log("Error")) 
+        }).catch(i => i.response) 
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

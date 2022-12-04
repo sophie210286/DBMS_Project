@@ -19,7 +19,7 @@ const TypeForm = () => {
         }
         const res = await axios.post("/api/type", {
             crimename: e.currentTarget.crimename.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

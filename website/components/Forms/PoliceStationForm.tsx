@@ -24,7 +24,7 @@ const PoliceStationForm = () => {
         const res = await axios.post("/api/policestation", {
             name: e.currentTarget.name.value,
             city: e.currentTarget.city.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)

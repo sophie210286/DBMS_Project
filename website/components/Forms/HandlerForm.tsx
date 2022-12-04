@@ -42,7 +42,7 @@ const HandlerForm = () => {
             email: e.currentTarget.email.value,
             password: e.currentTarget.password.value,
             role: e.currentTarget.role.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if (!res?.data) {
             arr.push("Error");
             setErrors(arr)

@@ -54,7 +54,7 @@ const CrimeCaseForm = () => {
             status: e.currentTarget.status.value,
             stationid: e.currentTarget.stationid.value,
             handlerid: e.currentTarget.handlerid.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if(!res?.data){
             arr.push("Internal error");
             setErrors(arr)

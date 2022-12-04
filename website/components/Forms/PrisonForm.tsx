@@ -32,7 +32,7 @@ const PrisonForm = () => {
             prisonname: e.currentTarget.prisonname.value,
             city: e.currentTarget.city.value,
             capacity: e.currentTarget.capacity.value,
-        }).catch(i => console.log("Error"))
+        }).catch(i => i.response)
         if (!res?.data) {
             arr.push("Internal server error");
             setErrors(arr)
