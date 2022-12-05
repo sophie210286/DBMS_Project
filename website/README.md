@@ -33,7 +33,7 @@ yarn
 
 ### Step 3. Environment Variable
 
-Create a file name `.env.development` in the website folder, and fill up the following inside:
+Create a file name `.env.development` in the `website` folder, and fill up the following inside:
 
 ```console
 NEXT_PUBLIC_HOST=<Your hosting service; By default it runs on localhost>
@@ -45,7 +45,25 @@ NEXT_PUBLIC_DB_NAME=<Your database name>
 
 **Note:** If you are running the website on localhost, then you can ignore 'By defaults' but you still need to fill the remaining ones.
 
-### Step 4. Run the Website
+* Dummy example `.env.development`
+```console
+NEXT_PUBLIC_HOST=localhost
+NEXT_PUBLIC_DB_USER=postgres
+NEXT_PUBLIC_DB_PASSWORD=password
+NEXT_PUBLIC_DB_PORT=5432
+NEXT_PUBLIC_DB_NAME=cdms
+```
+
+### Step 4. Populating the Database 
+
+Use the following data file to populate your database:
+
+- To install using `.sql`: [SQL data file](/data/CDMS.sql)
+- To install using `.tar`: [TAR data file](/data/CDMS.tar)
+
+**Note:** The file will have all `CREATE TABLE`, `CREATE INDEX`, and `INSERT INTO` commands. 
+
+### Step 5. Run the Website
 
 ```console
 yarn run dev
@@ -67,3 +85,4 @@ The website will run on [http://localhost:3000](http://localhost:3000) on your b
 ## Technologies
 
 * [Nextjs](https://nextjs.org/) (Frontend and Backend)
+* [PostgreSQL](https://www.postgresql.org/) (Database)

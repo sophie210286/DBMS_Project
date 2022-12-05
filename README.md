@@ -1,6 +1,9 @@
 # CDMS: Crime Data Management System
 
-![GitHub contributors](https://img.shields.io/github/contributors/sophie210286/DBMS_Project?color=palevioletred) ![GitHub last commit](https://img.shields.io/github/last-commit/sophie210286/DBMS_Project?color=mediumorchid) ![GitHub deployments](https://img.shields.io/github/deployments/sophie210286/DBMS_Project/main?label=deploy&color=mediumseagreen)
+![GitHub contributors](https://img.shields.io/github/contributors/sophie210286/DBMS_Project?color=palevioletred) ![GitHub last commit](https://img.shields.io/github/last-commit/sophie210286/DBMS_Project?color=mediumorchid)
+
+For project installation, checkout this [README](/website/README.md) 
+
 
 ## Overview
 
